@@ -1,6 +1,7 @@
 #BasiCalculator
 -------------
 
+
 ##Introdución.
 
 Aplicación básica, con interfaz de una calculadora **estándar**, con todas las funcionalidades básicas tal como la calculadora de Windows.
@@ -179,3 +180,6 @@ Así en cuando pulsamos la tecla igual, se ejecuta este código:
 
 ~~~
 
+La aplicación queda de la siguiente manera:
+
+![](https://github.com/josemlp91/Aplicaciones_Moviles/blob/master/basiCalculator/capturas/basiCal.png?raw=true)
