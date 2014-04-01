@@ -1,6 +1,6 @@
 #BasiCalculator
 -------------
-
+## 
 
 ##Introdución.
 
@@ -132,17 +132,16 @@ Ya podemos ir programando cada uno de los botones, utilizando el manejador de ev
 
 Para manejar los operadores creamos un enum tal como este:
 
-~~~
-
+```java
 	public enum operador {
-		SUMA,RESTA,MULT,DIV,PORCIEN
-	}
+	SUMA,RESTA,MULT,DIV,PORCIEN
+}
 
-~~~
+```
 
 Así en cuando pulsamos la tecla igual, se ejecuta este código:
 
-~~~
+
 
 	igual.setOnClickListener (new OnClickListener() {
 				@Override
