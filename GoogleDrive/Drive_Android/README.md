@@ -1,49 +1,40 @@
-# Google Drive Android API Demos
+Monday, March 10 2014 11:19 AM
 
-Google Drive Android API Demos app illustrates all possible ways to talk to
-Drive service with the use of interfaces available in [Google Play
-Services](http://developer.android.com/google/play-services). The calls
-illustrated within the app are:
 
-### Listing and querying
-* [List files with pagination](https://github.com/googledrive/android-demos/blob/master/src/com/google/android/gms/drive/sample/demo/ListFilesActivity.java)
-* [Query files](https://github.com/googledrive/android-demos/blob/master/src/com/google/android/gms/drive/sample/demo/QueryFilesActivity.java)
+#  Gooogle Drive y Android.
+![](http://blog.zarovich.org/wp-content/uploads/2012/04/google_drive.jpg)
 
-### Working with files and folders
-* [Create a file](https://github.com/googledrive/android-demos/blob/master/src/com/google/android/gms/drive/sample/demo/CreateFileActivity.java)
-* [Create a folder](https://github.com/googledrive/android-demos/blob/master/src/com/google/android/gms/drive/sample/demo/CreateFolderActivity.java)
-* [Retrieve metadata](https://github.com/googledrive/android-demos/blob/master/src/com/google/android/gms/drive/sample/demo/RetrieveMetadataActivity.java)
-* [Retrieve contents](https://github.com/googledrive/android-demos/blob/master/src/com/google/android/gms/drive/sample/demo/RetrieveContentsActivity.java)
-* [Listen download progress](https://github.com/googledrive/android-demos/blob/master/src/com/google/android/gms/drive/sample/demo/RetrieveContentsWithProgressDialogActivity.java)
-* [Edit metadata](https://github.com/googledrive/android-demos/blob/master/src/com/google/android/gms/drive/sample/demo/EditMetadataActivity.java)
-* [Edit contents](https://github.com/googledrive/android-demos/blob/master/src/com/google/android/gms/drive/sample/demo/EditContentsActivity.java)
 
-### Intents
-* [Create a file with creator activity](https://github.com/googledrive/android-demos/blob/master/src/com/google/android/gms/drive/sample/demo/CreateFileWithCreatorActivity.java)
-* [Pick a file with opener activity](https://github.com/googledrive/android-demos/blob/master/src/com/google/android/gms/drive/sample/demo/PickFileWithOpenerActivity.java)
-* [Pick a folder with opener activity](https://github.com/googledrive/android-demos/blob/master/src/com/google/android/gms/drive/sample/demo/PickFolderWithOpenerActivity.java)
 
-### Hierarchical operations
-* [Create a file in a folder](https://github.com/googledrive/android-demos/blob/master/src/com/google/android/gms/drive/sample/demo/CreateFileInFolderActivity.java)
-* [Create a folder in a folder](https://github.com/googledrive/android-demos/blob/master/src/com/google/android/gms/drive/sample/demo/CreateFolderInFolderActivity.java)
-* [List files in a folder](https://github.com/googledrive/android-demos/blob/master/src/com/google/android/gms/drive/sample/demo/ListFilesInFolderActivity.java)
-* [Query files in a folder](https://github.com/googledrive/android-demos/blob/master/src/com/google/android/gms/drive/sample/demo/QueryFilesInFolderActivity.java)
+@[](http://youtu.be/pBFQdxA-apI)
 
-### Others
-* [Authorization, authentication and connection](https://github.com/googledrive/android-demos/blob/master/src/com/google/android/gms/drive/sample/demo/BaseDemoActivity.java)
-* [Synchronous requests](https://github.com/googledrive/android-demos/blob/master/src/com/google/android/gms/drive/sample/demo/SyncRequestsActivity.java)
-* [Check file sync status](https://github.com/googledrive/android-demos/blob/master/src/com/google/android/gms/drive/sample/demo/CheckFileSyncStatusActivity.java)
+Como sabemos Google Drive es un servicio en la nube de los muchos que ofrece el mercado actualmente, pero como ya sabemos la "nube" es una cosa muy dispersa y debemos saber ubicar Google Drive dentro de todo este mundo.
 
-## Can I run this app?
+[Google Drive](http://es.wikipedia.org/wiki/Google_Drive)
 
-If you actually want to run this sample app (though it is mostly provided so you
-can read the code), you will need to register an OAuth 2.0 client for the
-package `com.google.android.gms.drive.sample.demo` with your own debug keys
-and set any resource IDs to those that you have access to. Resource ID definitions
-are on:
+Drive dentro de mundo de las infraestructuras virtuales, se cataloga como IaaS "Infrastructure as a service" y es un medio de entrega de alamcenamiento básico y capacidades de cómputo como servicios estandarizados en la red. 
 
-* com.google.android.gms.drive.sample.demo.BaseDemoActivity.EXISTING_FOLDER_ID
-* com.google.android.gms.drive.sample.demo.BaseDemoActivity.EXISTING_FILE_ID
 
-![Analytics](https://ga-beacon.appspot.com/UA-46884138-1/android-demos?pixel)
+![](http://upload.wikimedia.org/wikipedia/commons/3/3c/Cloud_computing_layers.png)
+![](http://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube)
+
+Si nos fijamos en los servicios que se montan sobre G Drive, tales como  Google Docs & Spreadsheets, se ubican en la capa de SaaS, "Software as a Service"
+
+[SaaS Wikipedia](http://es.wikipedia.org/wiki/Software_como_servicio)
+
+Google Drive, básocamente ofrece un espacio de almacenamiento accesible, desde cualquier cliente con el que podamos conectar con nuestros clientes, y almacenar archivos de todo tipo.
+
+Como este espacio de almacenamiento es accesible desde cualquier lugar, se permiten crear aplicaciones que permitan realizar trabajo colaborativo desde varios clientes simultaneamente.
+
+
+##Utilizar Google Drive en Android
+
+Para poder aprovechar Google Drive en nuestras aplicaciones, Google nos proporciona las "APIs", y la ofrece para los siguientes lenguajes (Java, PHP, JavaScript, .NET, Python, Ruby, Go, Node.js) y en especial para Andriod y iOS.
+
+[Desarrollo con Android](https://developers.google.com/drive/android/get-started)
+[Desarrollo con Ios](https://developers.google.com/drive/ios/quickstart)
+
+[GitHub Android quickstart](https://github.com/googledrive/android-quickstart)
+
+
 
