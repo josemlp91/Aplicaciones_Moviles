@@ -15,6 +15,7 @@ Repositorio para crear aplicaciones Android.
 
 El pocicionamiento se realiza usando la API de google Maps
 
+![](https://raw.githubusercontent.com/josemlp91/Aplicaciones_Moviles/master/img/geoAlertDiagram.png)
   
   Código y descripción por partes:
   
