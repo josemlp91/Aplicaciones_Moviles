@@ -10,8 +10,14 @@ Repositorio para crear aplicaciones Android.
             
 
 **Proyecto: Geo-Alert System :** Sistema de notificaciones basado en marcas de posiciones geograficas y procimidad a etiqueta NFC.
+
+
+
   
-  Más información en el repositorio propio del proyecto.
+  Código y descripción por partes :
   
+            - [Backend](https://github.com/josemlp91/GeoAlertWeb)
+            - [Cliente Andoid](https://github.com/josemlp91/GeoAlertAndroid)
+
   
   
